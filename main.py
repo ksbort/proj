@@ -10,10 +10,18 @@ def L1():
 	c2 = str(input('\nA: "Who are you?"\nD: Walk into the tunnel\nYour choice: '))
 	if(c2 == 'a'):
 		print('\nYou whisper out: \"Who.. are you? And what do you want?\"')
+		print('\n\"I am... Anna..\"')
+		print('\nAs her voice fades a table with two dolls appear in front of you.')
+		print('\n\"Choose one... the one you wish to... \"')
+		print('\nYou stare at the dolls and suddenly you realize the dolls look like...')
+		print('\n...Name1 and Name2!')
+		c2a = str(input('\nA: Choose Name1\nB: Choose Name2\nC: Choose none\nYour choice: '))
 	elif(c2 == 'd'):
-		print('\nYou enter the tunnel cautiously.')
-		print('\nAfter what seems to be forever in the inky darkness you emerge into...')
-		print('\n...vast, rolling fields? Wait a minute, where are you exactly?')
+		print('\nAs you enter the tunnel, you feel something staring at you.')
+		print('\nYou continue walking deeper anyways.')
+		print('\n\"What\'s this?\" you ask as you see a statue of a werewolf staring straight at you.')
+		print('\nAt the same time you find a door at the side of the tunnel.')
+		c2a = str(input('\nA: Walk towards the statue\nB: Exit the tunnel\nYour choice: '))
 def R1():
 	#unfinished
 	#This is for the right room, after choice zero.
