@@ -32,7 +32,7 @@ one() #Overflow on above line on 80 long screens
 print('\n[On a table to your left you find a document]')
 one()
 def fstch():
-	print('\nPress E to pick up.')
+	print('\nPress E to pick it up.')
 	first = str(input('Input: '))
 	if(first == 'e'):
 		print('\n.....')
