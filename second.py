@@ -39,7 +39,8 @@ def fstch():
 		one()
 		print('\nIt says...')
 		one()
-		print('\nNAME: KongRJ')#change name
+		na = str(input('What\'s your name, Player?: '))
+		print('\nNAME: %s' %na)
 		time.sleep(.5)
 		print('AGE: 16')
 		time.sleep(.5)
@@ -53,7 +54,7 @@ def fstch():
 		time.sleep(.5)
 		print('\t...will be able to take more drugs upon awakening. Patient will be...')
 		time.sleep(.5)
-		print('\tleft alone until then.')
+		print('\t...left alone until then.')
 		two()
 		def secch():
 			print('\nPress E to place it back.')
