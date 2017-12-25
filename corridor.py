@@ -18,3 +18,23 @@ def cont():
 	one()
 	print('\n[You come across a corridor]')
 	one()
+	print('\n\"Judging from the angle of the shadow, the person was on the left.\"')
+	two()
+	print('\n\"Should I go look for or avoid the person?\"')
+	two()
+	def thrch():
+		print('Press A to go left, press D to go right.')
+		second = str(input('Input: '))
+		if(second == 'a'):
+			print('\n.....')
+			one()
+			from left import con
+			con()
+		elif(second == 'd'):
+			print('\n.....')
+			from right import con
+			con()
+		else:
+			print('\nInput failed.')
+			thrch()
+	thrch()
